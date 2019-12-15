@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="ChatModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Attachments">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdMessage" Type="int" />
+          <Property Name="AttachmentData" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="ChatMessages">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdChat" Type="int" />
+          <Property Name="MessageText" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Chats">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Contacts">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdContact" Type="int" />
+          <Property Name="ContactName" Type="nvarchar(max)" />
+          <Property Name="IdUser" Type="int" />
+        </EntityType>
+        <EntityType Name="UserChat">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdUser" Type="int" />
+          <Property Name="IdChat" Type="int" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="UserLogin" Type="nvarchar(max)" />
+          <Property Name="UserPassword" Type="nvarchar(max)" />
+        </EntityType>
+        <Association Name="FK__Attachmen__IdMes__31EC6D26">
+          <End Role="ChatMessages" Type="Self.ChatMessages" Multiplicity="0..1" />
+          <End Role="Attachments" Type="Self.Attachments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ChatMessages">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Attachments">
+              <PropertyRef Name="IdMessage" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ChatMessa__IdCha__30F848ED">
+          <End Role="Chats" Type="Self.Chats" Multiplicity="0..1" />
+          <End Role="ChatMessages" Type="Self.ChatMessages" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Chats">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ChatMessages">
+              <PropertyRef Name="IdChat" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Contacts__IdCont__2D27B809">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="Contacts" Type="Self.Contacts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Contacts">
+              <PropertyRef Name="IdContact" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Contacts__IdUser__2E1BDC42">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="Contacts" Type="Self.Contacts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Contacts">
+              <PropertyRef Name="IdUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__UserChat__IdChat__300424B4">
+          <End Role="Chats" Type="Self.Chats" Multiplicity="0..1" />
+          <End Role="UserChat" Type="Self.UserChat" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Chats">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UserChat">
+              <PropertyRef Name="IdChat" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__UserChat__IdUser__2F10007B">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="UserChat" Type="Self.UserChat" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UserChat">
+              <PropertyRef Name="IdUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ChatModelStoreContainer">
+          <EntitySet Name="Attachments" EntityType="Self.Attachments" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ChatMessages" EntityType="Self.ChatMessages" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Chats" EntityType="Self.Chats" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Contacts" EntityType="Self.Contacts" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="UserChat" EntityType="Self.UserChat" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Attachmen__IdMes__31EC6D26" Association="Self.FK__Attachmen__IdMes__31EC6D26">
+            <End Role="ChatMessages" EntitySet="ChatMessages" />
+            <End Role="Attachments" EntitySet="Attachments" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ChatMessa__IdCha__30F848ED" Association="Self.FK__ChatMessa__IdCha__30F848ED">
+            <End Role="Chats" EntitySet="Chats" />
+            <End Role="ChatMessages" EntitySet="ChatMessages" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Contacts__IdCont__2D27B809" Association="Self.FK__Contacts__IdCont__2D27B809">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Contacts" EntitySet="Contacts" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Contacts__IdUser__2E1BDC42" Association="Self.FK__Contacts__IdUser__2E1BDC42">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Contacts" EntitySet="Contacts" />
+          </AssociationSet>
+          <AssociationSet Name="FK__UserChat__IdChat__300424B4" Association="Self.FK__UserChat__IdChat__300424B4">
+            <End Role="Chats" EntitySet="Chats" />
+            <End Role="UserChat" EntitySet="UserChat" />
+          </AssociationSet>
+          <AssociationSet Name="FK__UserChat__IdUser__2F10007B" Association="Self.FK__UserChat__IdUser__2F10007B">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="UserChat" EntitySet="UserChat" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="ChatModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Attachments">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdMessage" Type="Int32" />
+          <Property Name="AttachmentData" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <NavigationProperty Name="ChatMessages" Relationship="Self.FK__Attachmen__IdMes__31EC6D26" FromRole="Attachments" ToRole="ChatMessages" />
+        </EntityType>
+        <EntityType Name="ChatMessages">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdChat" Type="Int32" />
+          <Property Name="MessageText" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Attachments" Relationship="Self.FK__Attachmen__IdMes__31EC6D26" FromRole="ChatMessages" ToRole="Attachments" />
+          <NavigationProperty Name="Chats" Relationship="Self.FK__ChatMessa__IdCha__30F848ED" FromRole="ChatMessages" ToRole="Chats" />
+        </EntityType>
+        <EntityType Name="Chats">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <NavigationProperty Name="ChatMessages" Relationship="Self.FK__ChatMessa__IdCha__30F848ED" FromRole="Chats" ToRole="ChatMessages" />
+          <NavigationProperty Name="UserChat" Relationship="Self.FK__UserChat__IdChat__300424B4" FromRole="Chats" ToRole="UserChat" />
+        </EntityType>
+        <EntityType Name="Contacts">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdContact" Type="Int32" />
+          <Property Name="ContactName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="IdUser" Type="Int32" />
+          <NavigationProperty Name="Users" Relationship="Self.FK__Contacts__IdCont__2D27B809" FromRole="Contacts" ToRole="Users" />
+          <NavigationProperty Name="Users1" Relationship="Self.FK__Contacts__IdUser__2E1BDC42" FromRole="Contacts" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="UserChat">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdUser" Type="Int32" />
+          <Property Name="IdChat" Type="Int32" />
+          <NavigationProperty Name="Chats" Relationship="Self.FK__UserChat__IdChat__300424B4" FromRole="UserChat" ToRole="Chats" />
+          <NavigationProperty Name="Users" Relationship="Self.FK__UserChat__IdUser__2F10007B" FromRole="UserChat" ToRole="Users" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserLogin" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="UserPassword" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Contacts" Relationship="Self.FK__Contacts__IdCont__2D27B809" FromRole="Users" ToRole="Contacts" />
+          <NavigationProperty Name="Contacts1" Relationship="Self.FK__Contacts__IdUser__2E1BDC42" FromRole="Users" ToRole="Contacts" />
+          <NavigationProperty Name="UserChat" Relationship="Self.FK__UserChat__IdUser__2F10007B" FromRole="Users" ToRole="UserChat" />
+        </EntityType>
+        <Association Name="FK__Attachmen__IdMes__31EC6D26">
+          <End Role="ChatMessages" Type="Self.ChatMessages" Multiplicity="0..1" />
+          <End Role="Attachments" Type="Self.Attachments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ChatMessages">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Attachments">
+              <PropertyRef Name="IdMessage" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__ChatMessa__IdCha__30F848ED">
+          <End Role="Chats" Type="Self.Chats" Multiplicity="0..1" />
+          <End Role="ChatMessages" Type="Self.ChatMessages" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Chats">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="ChatMessages">
+              <PropertyRef Name="IdChat" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__UserChat__IdChat__300424B4">
+          <End Role="Chats" Type="Self.Chats" Multiplicity="0..1" />
+          <End Role="UserChat" Type="Self.UserChat" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Chats">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UserChat">
+              <PropertyRef Name="IdChat" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Contacts__IdCont__2D27B809">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="Contacts" Type="Self.Contacts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Contacts">
+              <PropertyRef Name="IdContact" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Contacts__IdUser__2E1BDC42">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="Contacts" Type="Self.Contacts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Contacts">
+              <PropertyRef Name="IdUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__UserChat__IdUser__2F10007B">
+          <End Role="Users" Type="Self.Users" Multiplicity="0..1" />
+          <End Role="UserChat" Type="Self.UserChat" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Users">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="UserChat">
+              <PropertyRef Name="IdUser" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ChatEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Attachments" EntityType="Self.Attachments" />
+          <EntitySet Name="ChatMessages" EntityType="Self.ChatMessages" />
+          <EntitySet Name="Chats" EntityType="Self.Chats" />
+          <EntitySet Name="Contacts" EntityType="Self.Contacts" />
+          <EntitySet Name="UserChat" EntityType="Self.UserChat" />
+          <EntitySet Name="Users" EntityType="Self.Users" />
+          <AssociationSet Name="FK__Attachmen__IdMes__31EC6D26" Association="Self.FK__Attachmen__IdMes__31EC6D26">
+            <End Role="ChatMessages" EntitySet="ChatMessages" />
+            <End Role="Attachments" EntitySet="Attachments" />
+          </AssociationSet>
+          <AssociationSet Name="FK__ChatMessa__IdCha__30F848ED" Association="Self.FK__ChatMessa__IdCha__30F848ED">
+            <End Role="Chats" EntitySet="Chats" />
+            <End Role="ChatMessages" EntitySet="ChatMessages" />
+          </AssociationSet>
+          <AssociationSet Name="FK__UserChat__IdChat__300424B4" Association="Self.FK__UserChat__IdChat__300424B4">
+            <End Role="Chats" EntitySet="Chats" />
+            <End Role="UserChat" EntitySet="UserChat" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Contacts__IdCont__2D27B809" Association="Self.FK__Contacts__IdCont__2D27B809">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Contacts" EntitySet="Contacts" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Contacts__IdUser__2E1BDC42" Association="Self.FK__Contacts__IdUser__2E1BDC42">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="Contacts" EntitySet="Contacts" />
+          </AssociationSet>
+          <AssociationSet Name="FK__UserChat__IdUser__2F10007B" Association="Self.FK__UserChat__IdUser__2F10007B">
+            <End Role="Users" EntitySet="Users" />
+            <End Role="UserChat" EntitySet="UserChat" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ChatModelStoreContainer" CdmEntityContainer="ChatEntities1">
+          <EntitySetMapping Name="Attachments">
+            <EntityTypeMapping TypeName="ChatModel.Attachments">
+              <MappingFragment StoreEntitySet="Attachments">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IdMessage" ColumnName="IdMessage" />
+                <ScalarProperty Name="AttachmentData" ColumnName="AttachmentData" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ChatMessages">
+            <EntityTypeMapping TypeName="ChatModel.ChatMessages">
+              <MappingFragment StoreEntitySet="ChatMessages">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IdChat" ColumnName="IdChat" />
+                <ScalarProperty Name="MessageText" ColumnName="MessageText" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Chats">
+            <EntityTypeMapping TypeName="ChatModel.Chats">
+              <MappingFragment StoreEntitySet="Chats">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Contacts">
+            <EntityTypeMapping TypeName="ChatModel.Contacts">
+              <MappingFragment StoreEntitySet="Contacts">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IdContact" ColumnName="IdContact" />
+                <ScalarProperty Name="ContactName" ColumnName="ContactName" />
+                <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="UserChat">
+            <EntityTypeMapping TypeName="ChatModel.UserChat">
+              <MappingFragment StoreEntitySet="UserChat">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="IdUser" ColumnName="IdUser" />
+                <ScalarProperty Name="IdChat" ColumnName="IdChat" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="ChatModel.Users">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="UserLogin" ColumnName="UserLogin" />
+                <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

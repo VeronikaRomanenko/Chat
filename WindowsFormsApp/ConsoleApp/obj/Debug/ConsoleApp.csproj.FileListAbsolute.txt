@@ -1,0 +1,56 @@
+C:\Users\Veronika\Desktop\WindowsFormsApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Users\Veronika\Desktop\WindowsFormsApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Users\Veronika\Desktop\WindowsFormsApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Users\Veronika\Desktop\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Users\Veronika\Desktop\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.pdb
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\ChatLibrary.dll
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.dll
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\ChatLibrary.pdb
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.xml
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.pdb
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\ChatLibrary.dll
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.dll
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\ChatLibrary.pdb
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.xml
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.csprojAssemblyReference.cache
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.pdb
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ConsoleApp\bin\Debug\ChatLibrary.dll
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.dll
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ConsoleApp\bin\Debug\ChatLibrary.pdb
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.xml
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.csprojAssemblyReference.cache
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.pdb
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\ConsoleApp.exe
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\ChatLibrary.dll
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.dll
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.SqlServer.dll
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\ChatLibrary.pdb
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.xml
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\bin\Debug\EntityFramework.SqlServer.xml
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.csprojResolveAssemblyReference.cache
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.exe
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ConsoleApp\obj\Debug\ConsoleApp.pdb

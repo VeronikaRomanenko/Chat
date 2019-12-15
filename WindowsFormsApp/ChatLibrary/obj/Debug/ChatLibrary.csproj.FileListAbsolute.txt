@@ -1,0 +1,29 @@
+C:\Users\Veronika\Desktop\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.csprojAssemblyReference.cache
+C:\Users\Veronika\Desktop\WindowsFormsApp\ChatLibrary\bin\Debug\ChatLibrary.dll
+C:\Users\Veronika\Desktop\WindowsFormsApp\ChatLibrary\bin\Debug\ChatLibrary.pdb
+C:\Users\Veronika\Desktop\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.dll
+C:\Users\Veronika\Desktop\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.pdb
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\bin\Debug\ChatLibrary.dll
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\bin\Debug\ChatLibrary.pdb
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.dll
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.pdb
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\bin\Debug\ChatLibrary.dll
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\bin\Debug\ChatLibrary.pdb
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.csprojAssemblyReference.cache
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.dll
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.pdb
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\bin\Debug\ChatLibrary.dll
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\bin\Debug\ChatLibrary.pdb
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.dll
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.pdb
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\bin\Debug\ChatLibrary.dll
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\bin\Debug\ChatLibrary.pdb
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.csprojAssemblyReference.cache
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.dll
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.pdb
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ChatLibrary\bin\Debug\ChatLibrary.dll
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ChatLibrary\bin\Debug\ChatLibrary.pdb
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.csprojAssemblyReference.cache
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.csproj.CoreCompileInputs.cache
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.dll
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\ChatLibrary\obj\Debug\ChatLibrary.pdb

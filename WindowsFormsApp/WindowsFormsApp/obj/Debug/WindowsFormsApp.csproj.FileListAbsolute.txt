@@ -1,0 +1,84 @@
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojResolveAssemblyReference.cache
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.AddContact.resources
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Chats.resources
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Contacts.resources
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.EditContact.resources
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form1.resources
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Login.resources
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.Cache
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\ChatLibrary.dll
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\ChatLibrary.pdb
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+D:\Романенко Вероника\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\ChatLibrary.dll
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\ChatLibrary.pdb
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojAssemblyReference.cache
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.AddContact.resources
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Chats.resources
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Contacts.resources
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.EditContact.resources
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form1.resources
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Login.resources
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CopyComplete
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+D:\Вероника\ШАГ\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\ChatLibrary.dll
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\ChatLibrary.pdb
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojResolveAssemblyReference.cache
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.AddContact.resources
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Chats.resources
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Contacts.resources
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.EditContact.resources
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form1.resources
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Login.resources
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.Cache
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+D:\Романенко\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\ChatLibrary.dll
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\bin\Debug\ChatLibrary.pdb
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojAssemblyReference.cache
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.AddContact.resources
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Chats.resources
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Contacts.resources
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.EditContact.resources
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form1.resources
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Login.resources
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CopyComplete
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+D:\ErikaRatio\Kursovoj_.NETFramework\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe.config
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.exe
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\bin\Debug\WindowsFormsApp.pdb
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\bin\Debug\ChatLibrary.dll
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\bin\Debug\ChatLibrary.pdb
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csprojAssemblyReference.cache
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.AddContact.resources
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Chats.resources
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Contacts.resources
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.EditContact.resources
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Form1.resources
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Login.resources
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.Properties.Resources.resources
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.GenerateResource.cache
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CoreCompileInputs.cache
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.csproj.CopyComplete
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.exe
+D:\Романенко\Kursovoj_.NETFramework-master\WindowsFormsApp\WindowsFormsApp\obj\Debug\WindowsFormsApp.pdb
